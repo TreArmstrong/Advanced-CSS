@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+    
+}
+/* Setting the width and height for the cells */
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black; /* adds border to each cell so I could see it on white background*/
+}
+/* Creating alternating colors */
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
